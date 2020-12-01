@@ -87,8 +87,10 @@ while True:
     c =input("(L)lihat, (T)ambah, (U)bah, (H)apus, (K)eluar : ")
 ````
 
-3.) Berikutnya tambahkan inputan  if c.lower() == 't':
+3.) Berikutnya tambahkan inputan  Fungsi Tambahkan
+
 ````
+if c.lower() == 't':
 print("=======Tambah Data=======")
         nama = input("Nama                :  ")
         nim = input("Nim                 :  ")
@@ -99,9 +101,10 @@ print("=======Tambah Data=======")
         data[nama] = nim, tugas, uts, uas, akhir
 ````
 
-4.) Tambahkan inputan elif c.lower() == 'u':
+4.) Tambahkan inputan Fungsi  Ubah 
 
 ````
+elif c.lower() == 'u':
 print('=======Ubah Data Mahasiswa=======')
         nama = input('Nama                :  ')
         if nama in data.keys():
@@ -115,9 +118,10 @@ print('=======Ubah Data Mahasiswa=======')
             print("Data Nilai Tidak Ada".format(nama))
 ````
 
-5.) Tambahkan inputan elif c.lower() == 'l':
+5.) Tambahkan inputan Fungsi Tampilkan 
 
 ````
+elif c.lower() == 'l':
  print("=======Daftar Nilai Mahasiswa=======")
         print("================================================================================================")
         print(" |NO   |     NAMA      |    NIM    |     TUGAS    |     UTS     |       UAS    |    AKHIR     | ")
@@ -132,9 +136,10 @@ print('=======Ubah Data Mahasiswa=======')
             print("============================================================================================")
 ````
 
-6.) TAmbahkan inputan elif c.lower() == 'h':
+6.) TAmbahkan inputan Fungsi Hapus 
 
 ````
+elif c.lower() == 'h':
 print("=======Hapus Data Mahasiswa=======")
         nama = input("Nama :  ")
         if nama in data.keys():
@@ -143,9 +148,10 @@ print("=======Hapus Data Mahasiswa=======")
             print("Data Nilai Tidak Ada".format(nama))
 ````
 
-7.) Tambahkan inputan elif c.lower() == 'k':
+7.) Tambahkan inputan Fungsi Keluar
 
 ````
+elif c.lower() == 'k':
 print("Keluar")
         break
 ````
@@ -155,3 +161,9 @@ Terakhir kita akan mencetak hasil dari program yang telah dibuat
 ![ubay1](foto/ubay1.png)
 
 Hasil Flowchart seperti berikut ini :
+
+![uby3](foto/uby3.png)
+
+# TERIMA KASIH 
+
+![uby4](foto/uby4.png)
