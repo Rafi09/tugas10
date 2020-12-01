@@ -1,18 +1,3 @@
-# Tugas 10
-
-# Nama   : Rafi Ubaidillah
-# NIM    : 312010090
-# Kelas  : TI.20.A1
-
-# Lab 6 
-
-![uby2](foto/uby2.png)
-
-Pada tugas LAB 6, saya diminta untuk membuat sebuah program menambahkan data ke sebuah list dengan sistem library root yang nantinya akan seperti ini.
-
-# Berikut inputannya 
-
-````
 from data import data
 
 
@@ -68,5 +53,3 @@ while True:
     elif c.lower() == 'k':
         print("Keluar")
         break
-````
-
